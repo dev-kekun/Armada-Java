@@ -10,7 +10,7 @@ public class OddEvenRCD {
         int num = scan.nextInt();
 
         if(num % 2 == 0){
-            System.out.print(num + " is even number.");
+            System.out.print(num + " is an even number.");
         }else{
             System.out.print(num + " is an odd number.");
         }
