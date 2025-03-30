@@ -1,5 +1,3 @@
-package OOP_RCD;
-
 class Car {
 
     String brand;

@@ -1,5 +1,3 @@
-package OOP_RCD;
-
 import java.util.Scanner;
 
 class GradeManager {
