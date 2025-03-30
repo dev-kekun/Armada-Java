@@ -43,7 +43,6 @@ class Employee {
     }
 }
 
-
 public class EmployeePayrollManagementSystem {
     ArrayList<Employee> employees = new ArrayList<>();
     Scanner scanner = new Scanner(System.in);
@@ -90,7 +89,7 @@ public class EmployeePayrollManagementSystem {
         int employeeID = scanner.nextInt();
         System.out.print("Enter employee salary: ");
         double salary = scanner.nextDouble();
-        scanner.nextLine(); // Consume newline
+        scanner.nextLine();
         System.out.print("Enter department: ");
         String department = scanner.nextLine();
 
@@ -117,7 +116,8 @@ public class EmployeePayrollManagementSystem {
         Employee employee = findEmployeeByID(employeeID);
 
         if (employee != null) {
-            System.out.println("Annual Salary of " + employee.name + ": $" + String.format("%.2f", employee.calculateAnnualSalary()));
+            System.out.println("Annual Salary of " + employee.name + ": $"
+                    + String.format("%.2f", employee.calculateAnnualSalary()));
         } else {
             System.out.println("Employee not found.");
         }
