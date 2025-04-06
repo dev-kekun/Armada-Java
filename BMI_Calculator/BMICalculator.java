@@ -26,7 +26,5 @@ public class BMICalculator {
         System.out.println("Your BMI      : " + BMI);
         System.out.println("Health Status : " + healthStatus);
 
-
-
     }
 }
